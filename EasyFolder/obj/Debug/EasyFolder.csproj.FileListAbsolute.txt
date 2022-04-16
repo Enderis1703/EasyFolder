@@ -1,0 +1,10 @@
+C:\Users\User_01\Anatoly\EasyFolder\EasyFolder\bin\Debug\EasyFolder.exe.config
+C:\Users\User_01\Anatoly\EasyFolder\EasyFolder\bin\Debug\EasyFolder.exe
+C:\Users\User_01\Anatoly\EasyFolder\EasyFolder\bin\Debug\EasyFolder.pdb
+C:\Users\User_01\Anatoly\EasyFolder\EasyFolder\obj\Debug\EasyFolder.csproj.AssemblyReference.cache
+C:\Users\User_01\Anatoly\EasyFolder\EasyFolder\obj\Debug\EasyFolder.Form1.resources
+C:\Users\User_01\Anatoly\EasyFolder\EasyFolder\obj\Debug\EasyFolder.Properties.Resources.resources
+C:\Users\User_01\Anatoly\EasyFolder\EasyFolder\obj\Debug\EasyFolder.csproj.GenerateResource.cache
+C:\Users\User_01\Anatoly\EasyFolder\EasyFolder\obj\Debug\EasyFolder.csproj.CoreCompileInputs.cache
+C:\Users\User_01\Anatoly\EasyFolder\EasyFolder\obj\Debug\EasyFolder.exe
+C:\Users\User_01\Anatoly\EasyFolder\EasyFolder\obj\Debug\EasyFolder.pdb
