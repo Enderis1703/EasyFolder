@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace EasyFolder
 {
@@ -20,7 +21,24 @@ namespace EasyFolder
         private void button1_Click(object sender, EventArgs e)
         {
             DialogResult result = folderBrowserDialog1.ShowDialog();
-            if (result != DialogResult.OK) return;
+            if (result == DialogResult.OK)
+            {
+                long size = GetDirectorySize(new DirectoryInfo(folderBrowserDialog1.SelectedPath));
+
+                MessageBox.Show(size.ToString());
+            }
+        }
+
+        private long GetDirectorySize(DirectoryInfo directoryInfo)
+        {
+            long size = 0;
+            FileInfo[] allFiles = directoryInfo.GetFiles();
+
+            for(int i = 0; i < allFiles.Length; i++)
+            {
+                size += allFiles[i].Length;
+            }
+            return size;
         }
     }
 }
