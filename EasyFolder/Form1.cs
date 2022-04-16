@@ -19,7 +19,8 @@ namespace EasyFolder
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("DA");
+            DialogResult result = folderBrowserDialog1.ShowDialog();
+            if (result != DialogResult.OK) return;
         }
     }
 }
